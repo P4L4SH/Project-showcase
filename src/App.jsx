@@ -57,11 +57,7 @@ function App() {
       description: "Simple calculator with basic operations",
       link: "https://calculator-app-palash.netlify.app/"
     },
-    {
-      title: "Quote Generator",
-      description: "Random inspirational quotes",
-      link: "https://iridescent-conkies-3d68e9.netlify.app"
-    },
+
     {
       title: "Gradient Color Creator / Generator",
       description: "Create and copy CSS gradients",
@@ -87,21 +83,7 @@ function App() {
       description: "Coding Project on the Way",
       link: "#"
     },
-    {
-      title: "Comming Soon",
-      description: "Coding Project on the Way",
-      link: "#"
-    },
-    {
-      title: "Comming Soon",
-      description: "Coding Project on the Way",
-      link: "#"
-    },
-    {
-      title: "Comming Soon",
-      description: "Coding Project on the Way",
-      link: "#"
-    },
+    
   ];
 
   // Check current path
