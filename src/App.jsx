@@ -42,20 +42,20 @@ const ProjectCard = ({ title, description, link }) => {
 function App() {
   const projects = [
     {
-      title: "Todo App",
-      description: "Task management with local storage",
-      link: "/TodoApp"
+      title: "Calender - Todo App",
+      description: "Simple Todo App with Calender",
+      link: "https://calender-todo-list.netlify.app/"
     },
     {
       title: "Stop Watch",
       description: "Real-time Stop Watch with start, stop, and reset",
-      link: "/stopWatch"
+      link: "https://stop-watch-palash.netlify.app/"
   
     },
     {
       title: "Calculator",
       description: "Simple calculator with basic operations",
-      link: "/Calculator"
+      link: "https://calculator-app-palash.netlify.app/"
     },
     {
       title: "Quote Generator",
@@ -68,9 +68,9 @@ function App() {
       link: "https://neon-baklava-b8af9c.netlify.app"
     },
     {
-      title: "Comming Soon",
-      description: "Coding Project on the Way",
-      link: "#"
+      title: "Bill Creator",
+      description: "Create and calculate bills, invoice, and total amount with tax Calculation",
+      link: "https://bill-creator-palashverma.netlify.app/"
     },
     {
       title: "Comming Soon",
