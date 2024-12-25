@@ -65,7 +65,7 @@ function App() {
     {
       title: "Gradient Color Creator / Generator",
       description: "Create and copy CSS gradients",
-      link: "https://neon-baklava-b8af9c.netlify.app"
+      link: "https://gradient-gen-css.netlify.app/"
     },
     {
       title: "Bill Creator",
