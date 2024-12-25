@@ -70,9 +70,9 @@ function App() {
       link: "https://bill-creator-palashverma.netlify.app/"
     },
     {
-      title: "Comming Soon",
-      description: "Coding Project on the Way",
-      link: "#"
+      title: "FPS Eye Trainer",
+      description: "Eye Trainer for FPS Gamers Made in ThreeJS",
+      link: "https://eyetrainer.vercel.app/"
     },
     {
       title: "Comming Soon",
