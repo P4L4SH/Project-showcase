@@ -2,6 +2,9 @@ import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
 import Todoapp from './pages/TodoApp.jsx';  // Make sure this matches exactly
 
+import Stopwatch from './pages/stopWatch.jsx';
+import SimpleCalculator from './pages/Calculator.jsx';
+
 const ProjectCard = ({ title, description, link }) => {
   const handleClick = (e) => {
     if (link.startsWith('/')) {
@@ -44,58 +47,59 @@ function App() {
       link: "/TodoApp"
     },
     {
-      title: "Weather Dashboard",
-      description: "Real-time weather updates using OpenWeather API",
-      link: "#"
+      title: "Stop Watch",
+      description: "Real-time Stop Watch with start, stop, and reset",
+      link: "/stopWatch"
+  
     },
     {
       title: "Calculator",
       description: "Simple calculator with basic operations",
-      link: "#"
+      link: "/Calculator"
     },
     {
       title: "Quote Generator",
       description: "Random inspirational quotes",
+      link: "https://iridescent-conkies-3d68e9.netlify.app"
+    },
+    {
+      title: "Gradient Color Creator / Generator",
+      description: "Create and copy CSS gradients",
+      link: "https://neon-baklava-b8af9c.netlify.app"
+    },
+    {
+      title: "Comming Soon",
+      description: "Coding Project on the Way",
       link: "#"
     },
     {
-      title: "Password Generator",
-      description: "Secure password creation tool",
+      title: "Comming Soon",
+      description: "Coding Project on the Way",
       link: "#"
     },
     {
-      title: "Password Generator",
-      description: "Secure password creation tool",
+      title: "Comming Soon",
+      description: "Coding Project on the Way",
       link: "#"
     },
     {
-      title: "Password Generator",
-      description: "Secure password creation tool",
+      title: "Comming Soon",
+      description: "Coding Project on the Way",
       link: "#"
     },
     {
-      title: "Password Generator",
-      description: "Secure password creation tool",
+      title: "Comming Soon",
+      description: "Coding Project on the Way",
       link: "#"
     },
     {
-      title: "Password Generator",
-      description: "Secure password creation tool",
+      title: "Comming Soon",
+      description: "Coding Project on the Way",
       link: "#"
     },
     {
-      title: "Password Generator",
-      description: "Secure password creation tool",
-      link: "#"
-    },
-    {
-      title: "Password Generator",
-      description: "Secure password creation tool",
-      link: "#"
-    },
-    {
-      title: "Password Generator",
-      description: "Secure password creation tool",
+      title: "Comming Soon",
+      description: "Coding Project on the Way",
       link: "#"
     },
   ];
@@ -106,6 +110,16 @@ function App() {
   // If path is /todo, render TodoApp
   if (currentPath === '/TodoApp') {
     return < Todoapp />;
+  }
+
+  if (currentPath === '/stopWatch') {
+    return < Stopwatch />;
+
+  }
+  if (currentPath === '/Calculator') {
+    return < SimpleCalculator />;
+  
+
   }
 
   // Otherwise render the project showcase
