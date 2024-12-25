@@ -1,5 +1,7 @@
 # JavaScript Mini Projects Showcase 🚀
 
+https://project-showcase-palashverma.netlify.app/
+
 A portfolio website to display and explore my JavaScript mini-projects. This website is a living collection of creative and practical projects aimed at refreshing and enhancing my JavaScript skills. Currently, it features **6-7 mini-projects**, and I am continuously updating it with more projects as I learn and grow.
 
 ---
