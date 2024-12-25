@@ -23,6 +23,7 @@ const ProjectCard = ({ title, description, link }) => {
           <p className="text-sm text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
             {description}
           </p>
+          
         </div>
         <div className="absolute inset-0 bg-blue-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
         <a 
@@ -126,7 +127,7 @@ function App() {
 
         <footer className="mt-20 text-center">
           <a 
-            href="https://github.com/yourusername"
+            href="https://github.com/P4L4SH"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 text-gray-600 hover:text-gray-900 transition-colors duration-200 group"
